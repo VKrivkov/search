@@ -1,0 +1,38 @@
+.maze-grid {
+    display: grid;
+    grid-template-columns: repeat(50, 10px);
+    grid-gap: 2px;
+    margin: 20px 0;
+  }
+  
+  .cell {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border: 0.5px solid #ccc;
+  }
+  
+  .wall {
+    background-color: black;
+  }
+  
+  .start {
+    background-color: green;
+  }
+  
+  .goal {
+    background-color: red;
+  }
+  
+  .visited {
+    background-color: lightblue;
+  }
+  
+  .path {
+    background-color: yellow;
+  }
+  
+  .controls {
+    margin-top: 10px;
+  }
+  
